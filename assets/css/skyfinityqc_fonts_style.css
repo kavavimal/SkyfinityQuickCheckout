@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Bold.woff") format("woff"),
+    url("../fonts/DMSans-Bold.woff2") format("woff2"),
+    url("../fonts/DMSans-Bold.svg#DMSans-Bold") format("svg"),
+    url("../fonts/DMSans-Bold.eot"),
+    url("../fonts/DMSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/DMSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Medium.woff") format("woff"),
+    url("../fonts/DMSans-Medium.woff2") format("woff2"),
+    url("../fonts/DMSans-Medium.svg#DMSans-Medium") format("svg"),
+    url("../fonts/DMSans-Medium.eot"),
+    url("../fonts/DMSans-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/DMSans-Medium.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans-Regular.woff") format("woff"),
+    url("../fonts/DMSans-Regular.woff2") format("woff2"),
+    url("../fonts/DMSans-Regular.svg#DMSans-Regular") format("svg"),
+    url("../fonts/DMSans-Regular.eot"),
+    url("../fonts/DMSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/DMSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit-Regular.woff") format("woff"),
+    url("../fonts/Kanit-Regular.woff2") format("woff2"),
+    url("../fonts/Kanit-Regular.svg#Kanit-Regular") format("svg"),
+    url("../fonts/Kanit-Regular.eot"),
+    url("../fonts/Kanit-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Kanit-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit-Bold.woff") format("woff"),
+    url("../fonts/Kanit-Bold.woff2") format("woff2"),
+    url("../fonts/Kanit-Bold.svg#Kanit-Bold") format("svg"),
+    url("../fonts/Kanit-Bold.eot"),
+    url("../fonts/Kanit-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Kanit-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

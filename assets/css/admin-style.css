@@ -1,0 +1,378 @@
+.skyfinity-wrapper {
+  width: 1080px;
+  max-width: 96%;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+  -webkit-box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+  -moz-box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+  font-family: "DMSans";
+}
+.skyfinity-boxes {
+}
+.skyfinity-header {
+  display: flex;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.skyfinity-logo img {
+  width: 200px;
+  display: block;
+}
+.skyfinity-content {
+  padding: 0;
+  background-color: #2a2742;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.skyfinity-content form {
+  padding: 50px 30px;
+}
+.skyfinity-content form p,
+.skyfinity-content form .message,
+.skyfinity-content form .error_message{
+  margin: 0 0 10px 0;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.skyfinity-content form .error_message {
+  color: #FF0000;
+}
+.skyfinity-content form input[type="text"],
+.skyfinity-content form input[type="password"] {
+  flex: 1;
+  height: 40px;
+  border: 0 !important;
+  border-radius: 0;
+  box-shadow: none;
+}
+.skyfinity-content form label {
+  color: #ffffff;
+  font-size: 16px;
+  width: 250px;
+}
+.skyfinity-wrapper .submit {
+  margin: 0;
+  padding: 0;
+}
+.skyfinity-wrapper #submit {
+  background: #d6445e;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 10px 50px;
+  font-size: 16px;
+  line-height: 32px;
+  border: 0;
+}
+.skyfinity-wrapper #submit:focus {
+  box-shadow: none;
+}
+.skyfinity-wrapper #submit:hover {
+  background: #ffffff;
+  color: #2a2742;
+}
+.skyfinity-footer {
+  display: flex;
+  background-color: #d6445e;
+  padding: 15px 20px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.skyfinity-page-title h3 {
+  font-size: 20px;
+  margin: 0;
+  line-height: 28px;
+  color: #ffffff;
+}
+.skyfinity-box label {
+  color: #ffffff;
+}
+.skyfinity-box a.footer-link {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 16px;
+}
+.skyfinity-box a.footer-link:hover {
+  color: #ffeb00;
+}
+.skyfinity-wrapper .yellow-link {
+  color: #ffeb00;
+  font-weight: 800;
+  font-size: 16px;
+}
+.skyfinity-content input.button {
+  padding: 5px 25px;
+  border-radius: 16px;
+  background: #d6445e;
+  border: none;
+  font-weight: bold;
+}
+.skyfinity-content input.button[data-style="plugin-activated"] {
+  background: #435803;
+}
+.skyfinity-content input.button:hover,
+.skyfinity-content input.button:focus,
+.skyfinity-content input.button:active {
+  background: #2a2742;
+}
+/**
+ * Checkbox Toggle UI
+ */
+.skyfinity-wrapper input[type="checkbox"].skyfinityqc-ui-toggle {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  -webkit-tap-highlight-color: transparent;
+
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  position: relative;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  margin: 0 4px;
+  background: none;
+  box-shadow: none;
+}
+.skyfinity-wrapper input[type="checkbox"].skyfinityqc-ui-toggle:focus {
+  box-shadow: none;
+}
+.skyfinity-wrapper input[type="checkbox"].skyfinityqc-ui-toggle:after {
+  content: "";
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 18px;
+  text-indent: -14px;
+  color: #ffffff;
+  width: 36px;
+  height: 18px;
+  display: inline-block;
+  background-color: #a7aaad;
+  border-radius: 72px;
+  box-shadow: 0 0 12px rgb(0 0 0 / 15%) inset;
+}
+.skyfinity-wrapper input[type="checkbox"].skyfinityqc-ui-toggle:before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  margin: 0;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.skyfinity-wrapper input[type="checkbox"].skyfinityqc-ui-toggle:checked:before {
+  left: 20px;
+  margin: 0;
+  background-color: #ffffff;
+}
+.skyfinity-wrapper input[type="checkbox"].skyfinityqc-ui-toggle,
+.skyfinity-wrapper input[type="checkbox"].skyfinityqc-ui-toggle:before,
+.skyfinity-wrapper input[type="checkbox"].skyfinityqc-ui-toggle:after,
+.skyfinity-wrapper input[type="checkbox"].skyfinityqc-ui-toggle:checked:before,
+.skyfinity-wrapper input[type="checkbox"].skyfinityqc-ui-toggle:checked:after {
+  transition: ease 0.15s;
+}
+.skyfinity-wrapper input[type="checkbox"].skyfinityqc-ui-toggle:checked:after {
+  content: "ON";
+  background-color: #2271b1;
+}
+
+.skyfinity-wrapper .custom-colors li,
+.skyfinity-wrapper .theme-settings .theme-item {
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skyfinity-wrapper .custom-colors {
+  margin-left: 35px;
+}
+.skyfinity-wrapper .theme-settings .color-item {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+/* Style the tab */
+.skyfinity-wrapper .tab {
+  overflow: hidden;
+  border-top: 1px solid #ffffff;
+  background-color: #b54462;
+  color: #ffffff;
+}
+
+/* Style the buttons that are used to open the tab content */
+.skyfinity-wrapper .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-right: 1px solid #ffffff;
+}
+
+/* Change background color of buttons on hover */
+.skyfinity-wrapper .tab button:hover {
+  background-color: #d6445e;
+}
+
+/* Create an active/current tablink class */
+.skyfinity-wrapper .tab button.active {
+  background-color: #ffffff;
+  position: relative;
+  color: #d6445e;
+}
+
+/* Style the tab content */
+.skyfinity-wrapper .tabcontent {
+  display: none;
+  padding: 25px 0 0;
+  border-top: none;
+}
+
+.skyfinity-wrapper .tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.skyfinity-content .fields-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.skyfinity-content .backend-title {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.skyfinity-content .backend-sub-title {
+  margin: 0 0 30px 0;
+  border-bottom: 1px solid #606060;
+  padding-bottom: 10px;
+}
+
+.skyfinity-wrapper .custom-colors .wp-color-result.button {
+  min-height: 40px;
+  margin: 2px 10px;
+  padding: 0 0 0 30px;
+  font-size: 11px;
+  border: none;
+  border-radius: 0;
+}
+.skyfinity-wrapper .custom-colors li .wp-picker-container {
+  position: relative;
+}
+.skyfinity-wrapper .custom-colors li .wp-picker-container .wp-picker-input-wrap,
+.skyfinity-wrapper .custom-colors li .wp-picker-container .wp-picker-holder {
+  position: absolute;
+  top: 0;
+  left: 135px;
+}
+.skyfinity-wrapper .custom-colors li .wp-picker-container .wp-picker-holder {
+  top: 40px;
+}
+.skyfinity-wrapper
+  .custom-colors
+  li
+  .wp-picker-container
+  .wp-picker-input-wrap.hidden {
+  display: none;
+}
+
+.skyfinity-wrapper
+  .custom-colors
+  li
+  .wp-picker-container
+  .wp-picker-input-wrap {
+  display: flex;
+}
+.skyfinity-wrapper .custom-colors li .wp-picker-container .wp-picker-default {
+  background: #d6445e;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 0px 25px;
+  font-size: 13px;
+  line-height: 26px;
+  border: 0;
+}
+.skyfinity-wrapper
+  .custom-colors
+  li
+  .wp-picker-container
+  .wp-picker-default:hover {
+  background: #ffffff;
+  color: #2a2742;
+}
+
+/** custom radio */
+.skyfinityqc_custom-radios input[type="radio"] {
+  display: none;
+}
+.skyfinityqc_custom-radios input[type="radio"] + label {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  display: flex;
+}
+.skyfinityqc_custom-radios input[type="radio"] + label span {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  line-height: 22px;
+}
+.skyfinityqc_custom-radios input[type="radio"] + label span img {
+  opacity: 0;
+  width: 12px;
+  margin: auto;
+  transition: all 0.3s ease;
+}
+.skyfinityqc_custom-radios input[type="radio"] + label span {
+  background-color: #b54462;
+}
+.skyfinityqc_custom-radios input[type="radio"]:checked + label span img {
+  opacity: 1;
+}
+
+.fields-wrapper .skyfinityqc-control {
+  width: 100%;
+}
